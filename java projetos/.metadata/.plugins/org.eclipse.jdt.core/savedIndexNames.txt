@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Aluno\Documents\AliceProjects\enzo\java projetos\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3656596875.index
+2380175872.index
