@@ -1,0 +1,21 @@
+package atvdTESTE;
+
+public class EstudanteTester {
+	
+	public static void main(String[] args) {
+		
+		Estudante est01 = new Estudante();
+		est01.setNome("Enzo");
+		est01.setId(1);
+		est01.setMedia(5.5f);
+		
+		System.out.println("Nome:" + est01.getNome());
+		System.out.println("Documento" + est01.getDocumento());
+		
+		System
+		
+		
+		
+	}
+
+}

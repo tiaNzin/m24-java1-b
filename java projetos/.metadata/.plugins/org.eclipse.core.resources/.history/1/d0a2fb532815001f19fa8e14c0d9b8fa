@@ -1,0 +1,104 @@
+package br.com.senaisp.bauru.enzo_c_genaro.atvd_2;
+
+/**
+ * @author Aluno
+ *
+ */
+public class Estudante {
+	private int id;
+	private String nome;
+	private String documento;
+	private float media;
+	private boolean fumante;
+	private double bolsaEstudo;
+	
+	public Estudante(int i, String string, String string2, float f, double d, boolean b) {
+		id = 0;
+		nome = "Sem nome";
+		documento = "sem documento";
+		media = 0.0f;
+		fumante = false;
+		bolsaEstudo = 0.0;
+		
+	}
+		
+		
+		
+	public Estudante(int id, String nome, String documento, float media, double bolsa, boolean fum) {
+		
+		
+		
+		
+		
+		
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome); 
+			 if 
+
+		}
+		this.nome = nome;
+	}
+
+	public String getDocumento() {
+		return documento;
+	}
+
+	public void setDocumento(String documento) {
+		this.documento = documento;
+	}
+
+	public float getMedia() {
+		return media;
+	}
+
+	public void setMedia(float media) {
+		this.media = media;
+	}
+
+	public boolean isFumante() {
+		return fumante;
+	}
+
+	public void setFumante(boolean fumante) {
+		this.fumante = fumante;
+	}
+
+	public double getBolsaEstudo() {
+		return bolsaEstudo;
+	}
+
+	public void setBolsaEstudo(double bolsaEstudo) {
+		this.bolsaEstudo = bolsaEstudo;
+	}
+	
+	public String toString( ) {
+		return "Id:" + getId() + "\n" +
+			   "Nome: " + getNome() + "\n" +
+			   "Documento: " + getDocumento() + "\n" +
+			   "Média: " + getMedia() + "\n"
+			   "Bolsa de Estudos: " + getBolsaEstudo()
+			   "Fumante: " + 
+			   
+			   
+	
+	
+	
+	
+	
+		
+	}
+
+}

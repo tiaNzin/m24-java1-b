@@ -1,0 +1,21 @@
+package br.com.senaisp.bauru.enzo_c_genaro;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio01 {
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in).useLocale(Locale.US);
+		double galoes = 15;
+		double litros = 0;
+		double gal21lt = 3.785;
+		System.out.println("Digite o valor:");
+		galoes = scn.nextDouble();
+		litros = galoes * gal21lt;
+		System.out.println (galoes + " galões equivalem a " + litros + " litros ");
+		
+		scn.close();
+		
+	}
+
+}
